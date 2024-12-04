@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Toggles -->
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_option_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option One" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_option_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option Two" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_option_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option Three" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_option_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option Four" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_option_five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option Five" />
+
+    <!-- Activate Button -->
+    <Button
+        android:id="@+id/btn_activate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Activate" />
+</LinearLayout>
